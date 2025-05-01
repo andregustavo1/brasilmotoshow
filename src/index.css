@@ -3,59 +3,113 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap');
+
 @layer base {
   :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+
+    --primary: 0 0% 0%;
+    --primary-foreground: 0 0% 100%;
+
+    --secondary: 0 0% 94.5%;
+    --secondary-foreground: 0 0% 0%;
+
+    --muted: 0 0% 94.5%;
+    --muted-foreground: 0 0% 54.9%;
+
+    --accent: 0 0% 94.5%;
+    --accent-foreground: 0 0% 0%;
+
+    --destructive: 0 100% 45%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 0 0% 94.5%;
+    --input: 0 0% 94.5%;
+    --ring: 0 0% 0%;
+
+    --radius: 0.5rem;
+
+    /* Sidebar variables (kept for compatibility) */
+    --sidebar-background: 0 0% 98%;
+    --sidebar-foreground: 240 5.3% 26.1%;
+    --sidebar-primary: 240 5.9% 10%;
+    --sidebar-primary-foreground: 0 0% 98%;
+    --sidebar-accent: 240 4.8% 95.9%;
+    --sidebar-accent-foreground: 240 5.9% 10%;
+    --sidebar-border: 220 13% 91%;
+    --sidebar-ring: 217.2 91.2% 59.8%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-roboto;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-rajdhani font-bold;
   }
 
   html {
     scroll-behavior: smooth;
+    scroll-padding-top: 80px;
   }
 }
 
 @layer components {
-  /* Card hover effect */
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24 md:px-10 lg:px-20;
+  }
+  
+  .section-title {
+    @apply text-3xl md:text-4xl lg:text-5xl font-rajdhani font-bold relative pb-4 mb-8;
+  }
+  
+  .section-title::after {
+    content: '';
+    @apply absolute bottom-0 left-0 w-16 h-1 bg-gsx-red;
+  }
+
+  .section-subtitle {
+    @apply text-lg md:text-xl mb-10 opacity-80;
+  }
+  
+  .btn {
+    @apply px-6 py-3 rounded transition-all duration-300 inline-flex items-center justify-center;
+  }
+  
+  .btn-primary {
+    @apply bg-gsx-red text-white hover:bg-gsx-redLight;
+  }
+  
+  .btn-outline {
+    @apply border-2 border-gsx-red text-gsx-red hover:bg-gsx-red hover:text-white;
+  }
+
   .card-hover {
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    @apply transition-all duration-300 hover:translate-y-[-5px] hover:shadow-lg;
   }
   
-  .card-hover:hover {
-    transform: translateY(-10px);
-    box-shadow: 0 10px 25px rgba(220, 38, 38, 0.2);
-    border-color: rgba(220, 38, 38, 0.5);
-  }
-  
-  /* Animation classes for scroll reveal */
-  .before-appear .before-appear-element {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  
-  .before-appear.appear .before-appear-element {
-    opacity: 1;
-    transform: translateY(0);
+  .appear-animation {
+    @apply opacity-0;
   }
 }
 
-/* Define appearance animations for the cards when they come into view */
-@keyframes appearFromBottom {
-  from {
-    opacity: 0;
-    transform: translateY(50px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.appear {
-  animation: appearFromBottom 0.8s ease forwards;
-}
-
-.appear .before-appear-element {
-  opacity: 1;
-  transform: translateY(0);
+/* Scroll progress bar */
+.scroll-progress {
+  @apply h-1 bg-gsx-red fixed top-0 left-0 z-50;
+  width: 0%;
+  transition: width 0.1s ease-out;
 }
