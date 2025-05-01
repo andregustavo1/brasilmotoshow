@@ -1,13 +1,13 @@
+
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import { Toaster } from "@/components/ui/toaster";
-import Navbar from './components/Navbar';
-import HeroSection from './components/HeroSection';
-import ServicesSection from './components/ServicesSection';
-import AboutSection from './components/AboutSection';
-import ContactSection from './components/ContactSection';
 import Footer from './components/Footer';
 import PatrocineSection from './components/PatrocineSection';
+import Header from './components/Header';
+import Hero from './components/Hero';
+import Contact from './components/Contact';
+import AboutUs from './components/AboutUs';
 
 const App: React.FC = () => {
   return (
@@ -15,12 +15,11 @@ const App: React.FC = () => {
       <Routes>
         <Route path="/" element={
           <>
-            <Navbar />
-            <HeroSection />
-            <ServicesSection />
-            <AboutSection />
+            <Header />
+            <Hero />
+            <AboutUs />
             <PatrocineSection />
-            <ContactSection />
+            <Contact />
             <Footer />
           </>
         } />
