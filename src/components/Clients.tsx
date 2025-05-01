@@ -30,8 +30,8 @@ const Clients = () => {
   return <section id="clientes" ref={sectionRef} className="section-padding bg-gsx-black text-white">
       <div className="container mx-auto">
         <div className="text-center mb-14">
-          <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">Quem Confia em Nosso Trabalho</h2>
-          <p className="section-subtitle appear-animation">Atendimento especializado para diversas marcas e modelos</p>
+          <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">Conheça um Pouco do Nosso Trabalho</h2>
+          <p className="section-subtitle appear-animation">Globo da Morte, Manobras e Shows ao Vivo!</p>
         </div>
         
         <div className="appear-animation max-w-5xl mx-auto px-8">
