@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from 'react';
-import { Instagram, MapPin, Phone } from 'lucide-react';
+import { Instagram, Phone } from 'lucide-react';
 
 const Contact = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -35,9 +35,8 @@ const Contact = () => {
     };
   }, []);
 
-  const whatsappUrl = "https://wa.me/5544999057697";
-  const instagramUrl = "https://www.instagram.com/gsxdiagnosticosmaringa";
-  const googleMapsUrl = "https://maps.google.com/?q=Av. Dr. Alexandre Rasgulaeff, 5486 - Jardim Imperial II, Maringá - PR, 87023-033";
+  const whatsappUrl = "https://wa.me/5511947428136";
+  const instagramUrl = "https://www.instagram.com/brasilmotoshowoficial/";
 
   return (
     <section 
@@ -51,7 +50,7 @@ const Contact = () => {
           <p className="section-subtitle appear-animation">Estamos prontos para resolver seu problema automotivo</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {/* WhatsApp */}
           <a 
             href={whatsappUrl}
@@ -61,7 +60,7 @@ const Contact = () => {
           >
             <Phone size={36} className="text-gsx-red mx-auto mb-4" />
             <h3 className="font-rajdhani font-bold text-xl mb-2">WhatsApp</h3>
-            <p className="text-gray-700">(44) 99905-7697</p>
+            <p className="text-gray-700">(11) 94742-8136</p>
           </a>
           
           {/* Instagram */}
@@ -73,19 +72,7 @@ const Contact = () => {
           >
             <Instagram size={36} className="text-gsx-red mx-auto mb-4" />
             <h3 className="font-rajdhani font-bold text-xl mb-2">Instagram</h3>
-            <p className="text-gray-700">@gsxdiagnosticosmaringa</p>
-          </a>
-          
-          {/* Location */}
-          <a 
-            href={googleMapsUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="bg-white rounded-lg shadow-sm p-8 text-center transition-all hover:-translate-y-1 hover:shadow-md appear-animation"
-          >
-            <MapPin size={36} className="text-gsx-red mx-auto mb-4" />
-            <h3 className="font-rajdhani font-bold text-xl mb-2">Localização</h3>
-            <p className="text-gray-700">Av. Dr. Alexandre Rasgulaeff, 5486 - Jardim Imperial II, Maringá - PR</p>
+            <p className="text-gray-700">@brasilmotoshowoficial</p>
           </a>
         </div>
       </div>

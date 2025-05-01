@@ -1,9 +1,10 @@
+
 import { ArrowDown } from "lucide-react";
 import { useState } from "react";
 
 const Hero = () => {
   const [isVideoLoaded, setIsVideoLoaded] = useState(false);
-  const whatsappUrl = "https://wa.me/5544999057697";
+  const whatsappUrl = "https://wa.me/5511947428136";
 
   return (
     <section

@@ -9,8 +9,8 @@ const Footer = () => {
     });
   };
 
-  const instagramUrl = "https://www.instagram.com/gsxdiagnosticosmaringa";
-  const whatsappUrl = "https://wa.me/5544999057697";
+  const instagramUrl = "https://www.instagram.com/brasilmotoshowoficial/";
+  const whatsappUrl = "https://wa.me/5511947428136";
 
   return (
     <footer className="bg-gsx-black text-white py-12">
@@ -37,9 +37,6 @@ const Footer = () => {
             </a>
             <a href="#servicos" className="text-gray-300 hover:text-white transition-colors">
               Serviços
-            </a>
-            <a href="#atendimento" className="text-gray-300 hover:text-white transition-colors">
-              Atendimento
             </a>
             <a href="#contato" className="text-gray-300 hover:text-white transition-colors">
               Contato
