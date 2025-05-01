@@ -4,8 +4,6 @@ import ScrollProgress from "@/components/ScrollProgress";
 import Hero from "@/components/Hero";
 import AboutUs from "@/components/AboutUs";
 import WhyChooseUs from "@/components/WhyChooseUs";
-import OurServices from "@/components/OurServices";
-import Technology from "@/components/Technology";
 import Clients from "@/components/Clients";
 import MobileService from "@/components/MobileService";
 import Contact from "@/components/Contact";
@@ -26,8 +24,6 @@ const Index = () => {
       <Hero />
       <AboutUs />
       <WhyChooseUs />
-      <OurServices />
-      <Technology />
       <Clients />
       <MobileService />
       <Contact />
