@@ -43,14 +43,14 @@ const AboutUs = () => {
       <div className="container mx-auto">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="section-title appear-animation">Sobre a GSX Diagnósticos</h2>
+            <h2 className="section-title appear-animation">O MAIOR ESPETÁCULO DE MOTOS DO BRASIL</h2>
             
             <p className="appear-animation mb-6">
-              A GSX Diagnósticos Maringá é especializada em serviços de diagnóstico e programação de módulos automotivos com tecnologia de ponta. Atendemos oficinas e clientes particulares em Maringá e região, oferecendo soluções móveis que levam nossa expertise diretamente até você.
+              O Brasil Moto Show é o evento mais adrenalínico do calendário nacional para amantes de motociclismo. Reunimos os melhores pilotos do país em apresentações que desafiam a gravidade e impressionam o público. Com muita adrenalina, técnica e ousadia, nossos shows são garantia de emoção do início ao fim.
             </p>
             
             <p className="appear-animation mb-8">
-              Trabalhamos com as maiores oficinas de funilaria e pintura da cidade, e emitimos notas fiscais diretas para as principais companhias de seguros do Brasil.
+              Adrenalina e emoção garantidas em cada apresentação
             </p>
             
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -63,8 +63,7 @@ const AboutUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-rajdhani font-bold text-xl mb-1">Atendimento móvel</h3>
-                  <p className="text-sm text-gray-600">Atendemos em toda região de Maringá</p>
+                  <h3 className="font-rajdhani font-bold text-xl mb-1">Shows radicais de manobras e Wheeling</h3>
                 </div>
               </div>
               
@@ -76,8 +75,7 @@ const AboutUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-rajdhani font-bold text-xl mb-1">Equipamentos avançados</h3>
-                  <p className="text-sm text-gray-600">Tecnologia de ponta para diagnósticos precisos</p>
+                  <h3 className="font-rajdhani font-bold text-xl mb-1">Globo da Morte com pilotos experientes</h3>
                 </div>
               </div>
               
@@ -90,8 +88,7 @@ const AboutUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-rajdhani font-bold text-xl mb-1">Seguradoras</h3>
-                  <p className="text-sm text-gray-600">Parceria com as principais companhias de seguros</p>
+                  <h3 className="font-rajdhani font-bold text-xl mb-1">Infraestrutura completa para público e participantes</h3>
                 </div>
               </div>
               
@@ -103,8 +100,7 @@ const AboutUs = () => {
                   </svg>
                 </div>
                 <div>
-                  <h3 className="font-rajdhani font-bold text-xl mb-1">Expertise técnica</h3>
-                  <p className="text-sm text-gray-600">Veículos nacionais e importados</p>
+                  <h3 className="font-rajdhani font-bold text-xl mb-1">Ambiente seguro com equipe especializada</h3>
                 </div>
               </div>
             </div>
@@ -114,14 +110,14 @@ const AboutUs = () => {
             <div className="relative">
               <img 
                 src="/lovable-uploads/f8efdfb9-71e4-4aa5-9b5b-a2d34eae3dd1.png" 
-                alt="Módulos automotivos e certificado GSX Diagnósticos" 
+                alt="Foto da equipe do Brasil Moto Show" 
                 className="rounded-lg shadow-lg object-cover w-full h-[500px]"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gsx-black/70 to-transparent rounded-lg"></div>
               <div className="absolute bottom-6 left-6 right-6">
                 <div className="bg-gsx-red text-white px-6 py-4 rounded inline-block">
-                  <h3 className="font-rajdhani font-bold text-xl mb-1">Diagnóstico de precisão</h3>
-                  <p className="text-sm">Identificamos e solucionamos os problemas com eficiência</p>
+                  <h3 className="font-rajdhani font-bold text-xl mb-1">ATRAÇÕES QUE TIRAM O FÔLEGO</h3>
+                  <p className="text-sm">Globo da Morte, manobras e pura emoção.</p>
                 </div>
               </div>
             </div>

@@ -40,15 +40,15 @@ const Header = () => {
   return (
     <header 
       className={`fixed top-0 left-0 w-full z-40 transition-all duration-300 ${
-        scrolled ? 'bg-gsx-black shadow-md py-2' : 'bg-gsx-black/80 py-4'
+        scrolled ? 'bg-gsx-black shadow-md py-3' : 'bg-transparent py-4'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <a href="#inicio" className="text-white font-rajdhani font-bold text-2xl flex items-center">
           <img 
-            src="/lovable-uploads/31659cb8-2ea5-4fb9-b29e-d8f489fb37a9.png" 
-            alt="GSX Diagnósticos Logo" 
-            className="w-16 mr-3"
+            src="\img\logo.png" 
+            alt="Logo" 
+            className="w-40 mr-3"
           />
         </a>
         
@@ -70,20 +70,12 @@ const Header = () => {
             Sobre
           </a>
           <a 
-            href="#servicos" 
+            href="#Patrocinadores" 
             className={`text-white text-sm lg:text-base hover:text-gsx-red transition-colors ${
               activeSection === 'servicos' ? 'font-bold text-gsx-red' : ''
             }`}
           >
-            Serviços
-          </a>
-          <a 
-            href="#atendimento" 
-            className={`text-white text-sm lg:text-base hover:text-gsx-red transition-colors ${
-              activeSection === 'atendimento' ? 'font-bold text-gsx-red' : ''
-            }`}
-          >
-            Atendimento
+            Patrocinadores
           </a>
           <a 
             href="#contato" 
@@ -98,9 +90,9 @@ const Header = () => {
             href={whatsappUrl}
             target="_blank"
             rel="noopener noreferrer" 
-            className="btn btn-primary ml-4"
+            className="btn btn-primary py-2 ml-4"
           >
-            Agendar Diagnóstico
+            Agendar Contato
           </a>
         </nav>
         
@@ -112,7 +104,7 @@ const Header = () => {
             rel="noopener noreferrer" 
             className="btn btn-primary text-sm py-2 px-4"
           >
-            Agendar Diagnóstico
+            Agendar Contato
           </a>
         </nav>
       </div>
