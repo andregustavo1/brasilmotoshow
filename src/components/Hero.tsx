@@ -57,7 +57,7 @@ const Hero = () => {
       {/* Scroll indicator */}
       <a 
         href="#sobre"
-        className="absolute bottom-10 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-white opacity-0 animate-fade-in-delay-3"
+        className="absolute bottom-10 hidden md:flex left-1/2 transform -translate-x-1/2 flex-col items-center text-white opacity-0 animate-fade-in-delay-3"
       >
         <span className="text-sm mb-2">Saiba mais</span>
         <ArrowDown className="animate-bounce" />

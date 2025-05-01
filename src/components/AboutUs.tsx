@@ -107,11 +107,11 @@ const AboutUs = () => {
           </div>
           
           <div className="appear-animation">
-            <div className="relative">
+            <div className="relative scale-90">
               <img 
-                src="/lovable-uploads/f8efdfb9-71e4-4aa5-9b5b-a2d34eae3dd1.png" 
+                src="/img/about.png" 
                 alt="Foto da equipe do Brasil Moto Show" 
-                className="rounded-lg shadow-lg object-cover w-full h-[500px]"
+                className="rounded-lg shadow-lg object-cover w-full h-full"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gsx-black/70 to-transparent rounded-lg"></div>
               <div className="absolute bottom-6 left-6 right-6">

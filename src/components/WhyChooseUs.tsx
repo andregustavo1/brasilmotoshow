@@ -55,8 +55,8 @@ const WhyChooseUs = () => {
       </div>
 
       <div className="container mx-auto relative z-10">
-        <div className="text-center mb-14">
-          <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">PATROCINE SUA MARCA NO MAIOR SHOW DE MOTOS DO BRASIL</h2>
+        <div className="text-center">
+          <h2 className="text-4xl mb-2 appear-animation inline-block text-white after:bg-gsx-red mx-auto">PATROCINE SUA MARCA NO MAIOR SHOW DE MOTOS DO BRASIL</h2>
           <p className="section-subtitle appear-animation">Associe sua marca à adrenalina e alcance um público apaixonado</p>
         </div>
         
@@ -69,7 +69,7 @@ const WhyChooseUs = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14">
           {/* Card 1 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+          <div className="bg-[#111] border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
             <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
               <Award className="text-white" size={24} />
             </div>
@@ -78,7 +78,7 @@ const WhyChooseUs = () => {
           </div>
           
           {/* Card 2 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+          <div className="bg-[#111] border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
             <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
               <MessageSquare className="text-white" size={24} />
             </div>
@@ -87,7 +87,7 @@ const WhyChooseUs = () => {
           </div>
           
           {/* Card 3 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+          <div className="bg-[#111] border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
             <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
               <Activity className="text-white" size={24} />
             </div>
@@ -96,7 +96,7 @@ const WhyChooseUs = () => {
           </div>
           
           {/* Card 4 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+          <div className="bg-[#111] border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
             <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
               <Handshake className="text-white" size={24} />
             </div>
