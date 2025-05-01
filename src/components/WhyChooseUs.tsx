@@ -1,5 +1,7 @@
 
 import { useEffect, useRef } from 'react';
+import { Award, MessageSquare, Activity, Handshake, ArrowRight } from 'lucide-react';
+import { Button } from './ui/button';
 
 const WhyChooseUs = () => {
   const sectionRef = useRef<HTMLElement>(null);
@@ -36,66 +38,81 @@ const WhyChooseUs = () => {
 
   return (
     <section 
-      id="porque-nos-escolher" 
+      id="patrocine" 
       ref={sectionRef}
-      className="section-padding bg-gsx-black text-white"
+      className="section-padding bg-gsx-black text-white relative overflow-hidden"
     >
-      <div className="container mx-auto">
+      {/* Decorative speed lines */}
+      <div className="absolute -top-10 right-0 w-full h-32 opacity-20">
+        <div className="w-full h-1 bg-gsx-red transform -rotate-12 mb-6"></div>
+        <div className="w-3/4 h-1 bg-gsx-red transform -rotate-6 mb-6"></div>
+        <div className="w-1/2 h-1 bg-gsx-red transform rotate-3"></div>
+      </div>
+      <div className="absolute -bottom-10 left-0 w-full h-32 opacity-20">
+        <div className="w-full h-1 bg-gsx-red transform rotate-12 mt-6"></div>
+        <div className="w-3/4 h-1 bg-gsx-red transform rotate-6 mt-6"></div>
+        <div className="w-1/2 h-1 bg-gsx-red transform -rotate-3"></div>
+      </div>
+
+      <div className="container mx-auto relative z-10">
         <div className="text-center mb-14">
-          <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">Por Que Nos Escolher?</h2>
-          <p className="section-subtitle appear-animation">Diagnóstico automotivo com precisão e qualidade</p>
+          <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">PATROCINE SUA MARCA NO MAIOR SHOW DE MOTOS DO BRASIL</h2>
+          <p className="section-subtitle appear-animation">Associe sua marca à adrenalina e alcance um público apaixonado</p>
         </div>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="max-w-3xl mx-auto mb-14 appear-animation">
+          <p className="text-center text-gray-300">
+            Ao patrocinar o Brasil Moto Show, sua marca ganha visibilidade para milhares de entusiastas do motociclismo e esportes radicais. 
+            Oferecemos pacotes personalizados com exposição em materiais promocionais, presença digital, espaço físico no evento e muito mais.
+          </p>
+        </div>
+        
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mb-14">
           {/* Card 1 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation">
-            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />
-                <polyline points="9 22 9 12 15 12 15 22" />
-              </svg>
+          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
+              <Award className="text-white" size={24} />
             </div>
-            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Tecnologia Avançada</h3>
-            <p className="text-sm text-gray-300 text-center">Scanners e equipamentos de última geração para diagnósticos precisos</p>
+            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Visibilidade Nacional</h3>
+            <p className="text-sm text-gray-300 text-center">Exposição para público qualificado e apaixonado</p>
           </div>
           
           {/* Card 2 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation">
-            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                <path d="M19 17h2c.6 0 1-.4 1-1v-3c0-.9-.7-1.7-1.5-1.9C18.7 10.6 16 10 16 10s-1.3-1.4-2.2-2.3c-.5-.4-1.1-.7-1.8-.7H5c-.6 0-1.1.4-1.4.9l-1.4 2.9A3.7 3.7 0 0 0 2 12v4c0 .6.4 1 1 1h2" />
-                <circle cx="7" cy="17" r="2" />
-                <path d="M9 17h6" />
-                <circle cx="17" cy="17" r="2" />
-              </svg>
+          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
+              <MessageSquare className="text-white" size={24} />
             </div>
-            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Atendimento Móvel</h3>
-            <p className="text-sm text-gray-300 text-center">Vamos até você, onde quer que esteja em Maringá e região</p>
+            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Conteúdo para Redes Sociais</h3>
+            <p className="text-sm text-gray-300 text-center">Produções exclusivas mencionando sua marca</p>
           </div>
           
           {/* Card 3 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation">
-            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                <path d="M12 2H2v10l9.29 9.29c.94.94 2.48.94 3.42 0l6.58-6.58c.94-.94.94-2.48 0-3.42L12 2Z" />
-                <path d="M7 7h.01" />
-              </svg>
+          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
+              <Activity className="text-white" size={24} />
             </div>
-            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Especialistas em Eletrônica</h3>
-            <p className="text-sm text-gray-300 text-center">Know-how em sistemas complexos de veículos modernos</p>
+            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Ativações no Evento</h3>
+            <p className="text-sm text-gray-300 text-center">Ações promocionais exclusivas no local</p>
           </div>
           
           {/* Card 4 */}
-          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation">
-            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto">
-              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-white">
-                <path d="M4 3h16a2 2 0 0 1 2 2v6a10 10 0 0 1-10 10A10 10 0 0 1 2 11V5a2 2 0 0 1 2-2z" />
-                <polyline points="8 10 12 14 16 10" />
-              </svg>
+          <div className="bg-gray-900 border border-gsx-red/30 rounded-lg p-6 card-hover appear-animation group">
+            <div className="bg-gsx-red rounded-full w-14 h-14 flex items-center justify-center mb-4 mx-auto group-hover:scale-110 transition-all duration-300">
+              <Handshake className="text-white" size={24} />
             </div>
-            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Parceiro de Seguradoras</h3>
-            <p className="text-sm text-gray-300 text-center">Emissão de notas fiscais diretas para companhias de seguros</p>
+            <h3 className="font-rajdhani font-bold text-xl mb-3 text-center">Relacionamento com o Público</h3>
+            <p className="text-sm text-gray-300 text-center">Conexão direta com consumidores potenciais</p>
           </div>
+        </div>
+
+        {/* CTA Button */}
+        <div className="text-center appear-animation">
+          <Button 
+            className="bg-gsx-red hover:bg-gsx-redLight text-white text-lg font-rajdhani font-bold py-6 px-8 rounded-md transition-all duration-300 transform group hover:scale-105"
+          >
+            QUERO PATROCINAR
+            <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
+          </Button>
         </div>
       </div>
     </section>
