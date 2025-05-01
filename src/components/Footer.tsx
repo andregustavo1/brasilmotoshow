@@ -13,9 +13,9 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-6 md:mb-0 flex flex-col items-center md:items-start">
             <div className="flex items-center mb-4">
-              <img src="/lovable-uploads/31659cb8-2ea5-4fb9-b29e-d8f489fb37a9.png" alt="GSX Diagnósticos Logo" className="h-16" />
+              <img src="/img/logo.png" alt="Brasil Moto Show Logo" className="h-16 mb-4" />
             </div>
-            <h2 className="text-2xl font-rajdhani font-bold mb-2 hidden">GSX Diagnósticos Maringá</h2>
+            <h2 className="text-2xl font-rajdhani font-bold mb- hidden"></h2>
             <p className="text-sm text-gray-400 w-[420px]">O Brasil Moto Show é o um espetáculo de motociclismo radical, levando adrenalina e emoção para várias regiões do Brasil. Com shows de wheeling, globo da morte e manobras impressionantes, nossos eventos reúnem os melhores pilotos e um público apaixonado por duas rodas.</p>
           </div>
           
@@ -26,8 +26,8 @@ const Footer = () => {
             <a href="#sobre" className="text-gray-300 hover:text-white transition-colors">
               Sobre
             </a>
-            <a href="#servicos" className="text-gray-300 hover:text-white transition-colors">
-              Serviços
+            <a href="#patrocine" className="text-gray-300 hover:text-white transition-colors">
+              Patrocínios
             </a>
             <a href="#contato" className="text-gray-300 hover:text-white transition-colors">
               Contato
@@ -40,7 +40,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <p className="text-sm text-gray-400">
-              © 2025 GSX Diagnósticos Maringá. Todos os direitos reservados.
+              ©2025 Brasil Moto Show. Todos os direitos reservados.
             </p>
           </div>
           

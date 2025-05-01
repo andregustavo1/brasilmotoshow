@@ -50,10 +50,6 @@ const MobileService = () => {
               Levamos nossa tecnologia até sua oficina ou residência
             </p>
             
-            <p className="mb-8 appear-animation">
-              A GSX Diagnósticos Maringá oferece atendimento móvel em toda Maringá e região, levando até você os equipamentos e a expertise necessária para diagnóstico e programação de módulos automotivos. Uma solução completa que economiza seu tempo e proporciona comodidade.
-            </p>
-            
             <div className="bg-gray-100 rounded-lg p-6 mb-8 appear-animation">
               <h3 className="font-rajdhani font-bold text-xl mb-4 flex items-center">
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-gsx-red mr-2">

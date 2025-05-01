@@ -12,9 +12,6 @@ import { useEffect } from "react";
 
 const Index = () => {
   // Set page title
-  useEffect(() => {
-    document.title = "GSX Diagnósticos Maringá - Diagnóstico e Programação Automotiva";
-  }, []);
 
   return (
     <div className="min-h-screen bg-white">

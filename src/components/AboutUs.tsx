@@ -101,7 +101,7 @@ const AboutUs = () => {
                 className="rounded-lg shadow-lg object-cover w-full h-full"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-gsx-black/70 to-transparent rounded-lg"></div>
-              <div className="absolute bottom-6 left-6 right-6">
+              <div className="absolute bottom-6 left-6 right-6 hidden">
                 <div className="bg-gsx-red text-white px-6 py-4 rounded inline-block">
                   <h3 className="font-rajdhani font-bold text-xl mb-1">ATRAÇÕES QUE TIRAM O FÔLEGO</h3>
                   <p className="text-sm">Globo da Morte, manobras e pura emoção.</p>

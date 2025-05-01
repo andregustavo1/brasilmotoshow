@@ -35,7 +35,7 @@ const Header = () => {
   }, []);
 
   // WhatsApp URL
-  const whatsappUrl = "https://wa.me/5511947428136";
+  const whatsappUrl = "https://wa.me/5544999057697";
   
   return (
     <header 
@@ -70,7 +70,7 @@ const Header = () => {
             Sobre
           </a>
           <a 
-            href="#Patrocinadores" 
+            href="#patrocine" 
             className={`text-white text-sm lg:text-base hover:text-gsx-red transition-colors ${
               activeSection === 'servicos' ? 'font-bold text-gsx-red' : ''
             }`}
