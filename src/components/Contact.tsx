@@ -31,7 +31,7 @@ const Contact = () => {
   return <section id="contato" ref={sectionRef} className="section-padding bg-gray-100">
       <div className="container mx-auto">
         <div className="text-center mb-14">
-          <h2 className="section-title appear-animation inline-block mx-auto">Entre em Contato</h2>
+          <h2 className="section-title appear-animation inline-block mx-auto">DESAFIAMOS A GRAVIDADE E CONQUISTAMOS A MULTIDÃO</h2>
           <p className="section-subtitle appear-animation">Estamos prontos para atender seu evento ou fechar uma parceria.</p>
         </div>
         
