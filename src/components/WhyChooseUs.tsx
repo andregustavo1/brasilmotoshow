@@ -106,14 +106,14 @@ const WhyChooseUs = () => {
         </div>
 
         {/* CTA Button */}
-        <div className="text-center appear-animation">
+        <a className="text-center grid place-items-center mx-auto appear-animation" href="https://wa.me/5511947428136" target="_blank" rel="noopener noreferrer">
           <Button 
             className="bg-gsx-red hover:bg-gsx-redLight text-white text-lg font-rajdhani font-bold py-6 px-8 rounded-md transition-all duration-300 transform group hover:scale-105"
           >
             QUERO PATROCINAR
             <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" size={20} />
           </Button>
-        </div>
+        </a>
       </div>
     </section>
   );

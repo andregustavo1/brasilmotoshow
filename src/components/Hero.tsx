@@ -33,7 +33,7 @@ const Hero = () => {
           
           <div className="flex flex-wrap gap-4 opacity-0 animate-fade-in-delay-2">
             <a 
-              href="#servicos"
+              href="#shows"
               className="btn btn-primary"
             >
               Conheça Nossos Shows

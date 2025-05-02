@@ -35,7 +35,7 @@ const Header = () => {
   }, []);
 
   // WhatsApp URL
-  const whatsappUrl = "https://wa.me/5544999057697";
+  const whatsappUrl = "https://wa.me/5511947428136";
   
   return (
     <header 
@@ -55,32 +55,40 @@ const Header = () => {
         <nav className="hidden md:flex items-center gap-6">
           <a 
             href="#inicio" 
-            className={`text-white text-sm lg:text-base hover:text-gsx-red transition-colors ${
-              activeSection === 'inicio' ? 'font-bold text-gsx-red' : ''
+            className={`text-white text-sm lg:text-base hover:text-red-600 transition-colors ${
+              activeSection === 'inicio' ? 'font-bold text-red-600' : ''
             }`}
           >
             Início
           </a>
           <a 
             href="#sobre" 
-            className={`text-white text-sm lg:text-base hover:text-gsx-red transition-colors ${
-              activeSection === 'sobre' ? 'font-bold text-gsx-red' : ''
+            className={`text-white text-sm lg:text-base hover:text-red-600 transition-colors ${
+              activeSection === 'sobre' ? 'font-bold text-red-600' : ''
             }`}
           >
             Sobre
           </a>
           <a 
             href="#patrocine" 
-            className={`text-white text-sm lg:text-base hover:text-gsx-red transition-colors ${
-              activeSection === 'servicos' ? 'font-bold text-gsx-red' : ''
+            className={`text-white text-sm lg:text-base hover:text-red-600 transition-colors ${
+              activeSection === 'patrocine' ? 'font-bold text-red-600' : ''
             }`}
           >
             Patrocinadores
           </a>
           <a 
+            href="#shows" 
+            className={`text-white text-sm lg:text-base hover:text-red-600 transition-colors ${
+              activeSection === 'shows' ? 'font-bold text-red-600' : ''
+            }`}
+          >
+            Shows
+          </a>
+          <a 
             href="#contato" 
-            className={`text-white text-sm lg:text-base hover:text-gsx-red transition-colors ${
-              activeSection === 'contato' ? 'font-bold text-gsx-red' : ''
+            className={`text-white text-sm lg:text-base hover:text-red-600 transition-colors ${
+              activeSection === 'contato' ? 'font-bold text-red-600' : ''
             }`}
           >
             Contato

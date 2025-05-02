@@ -34,7 +34,7 @@ const OurServices = () => {
     };
   }, []);
 
-  const whatsappUrl = "https://wa.me/5544999057697";
+  const whatsappUrl = "https://wa.me/5511947428136";
 
   const services = [
     {

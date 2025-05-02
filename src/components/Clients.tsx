@@ -27,7 +27,7 @@ const Clients = () => {
     };
   }, []);
   const images = Array.from({ length: 26 }, (_, i) => `/img/1 (${i + 2}).jpg`);
-  return <section id="clientes" ref={sectionRef} className="section-padding bg-gsx-black text-white">
+  return <section id="shows" ref={sectionRef} className="section-padding bg-gsx-black text-white">
       <div className="container mx-auto">
         <div className="text-center mb-14">
           <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">Conheça um Pouco dos Nossos Shows</h2>

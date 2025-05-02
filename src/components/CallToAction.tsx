@@ -25,7 +25,7 @@ const CallToAction = () => {
       observer.disconnect();
     };
   }, []);
-  const whatsappUrl = "https://wa.me/5544999057697";
+  const whatsappUrl = "https://wa.me/5511947428136";
   return <section id="cta" ref={sectionRef} className="relative py-20">
       {/* Background image */}
       <div className="absolute inset-0 bg-cover bg-center z-0" style={{
