@@ -29,8 +29,8 @@ const CallToAction = () => {
   return <section id="cta" ref={sectionRef} className="relative py-20">
       {/* Background image */}
       <div className="absolute inset-0 bg-cover bg-center z-0" style={{
-      backgroundImage: "url('https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?q=80&w=1526&auto=format&fit=crop')",
-      filter: "brightness(0.3)"
+      backgroundImage: "url('/img/1 (21).jpg')",
+      filter: "brightness(0.3) blur(0px)"
     }}></div>
       
       {/* Content */}

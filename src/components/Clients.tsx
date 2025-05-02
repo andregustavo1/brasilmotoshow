@@ -26,7 +26,7 @@ const Clients = () => {
       observer.disconnect();
     };
   }, []);
-  const images = [""];
+  const images = Array.from({ length: 26 }, (_, i) => `/img/1 (${i + 2}).jpg`);
   return <section id="clientes" ref={sectionRef} className="section-padding bg-gsx-black text-white">
       <div className="container mx-auto">
         <div className="text-center mb-14">
@@ -50,6 +50,12 @@ const Clients = () => {
             <CarouselNext className="flex bg-black" />
           </Carousel>
         </div>
+
+        <div className="mt-4 text-center">
+  <p className="text-sm text-gray-400">
+    &laquo; Arraste ou clique na seta para ver mais &raquo;
+  </p>
+</div>
         
         <div className="mt-12 text-center">
           <div className="inline-flex items-center gap-3 appear-animation bg-gsx-red/20 px-6 py-3 rounded-lg hidden">
