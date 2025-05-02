@@ -26,11 +26,11 @@ const Clients = () => {
       observer.disconnect();
     };
   }, []);
-  const images = ["/lovable-uploads/453e976d-3e54-4127-b161-abbe028c62ac.png", "/lovable-uploads/20a98317-e5ec-421a-8936-40a8db049bef.png", "/lovable-uploads/534d1f26-84f2-4612-9cc1-86b52dcd912f.png", "/lovable-uploads/d7bf6254-a261-493e-8b25-d094f1d2620f.png", "/lovable-uploads/d0c2af03-3d2e-4090-9485-c6717e857423.png", "/lovable-uploads/4b15206a-de28-4f2a-8af6-5716118a7366.png", "/lovable-uploads/e35d2d7f-f836-4de5-b9a0-259f377d3d1f.png", "/lovable-uploads/3c7c2583-e80f-4deb-b439-aa0e1e70e7bf.png"];
+  const images = [""];
   return <section id="clientes" ref={sectionRef} className="section-padding bg-gsx-black text-white">
       <div className="container mx-auto">
         <div className="text-center mb-14">
-          <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">Conheça um Pouco do Nosso Trabalho</h2>
+          <h2 className="section-title appear-animation inline-block text-white after:bg-gsx-red mx-auto">Conheça um Pouco dos Nossos Shows</h2>
           <p className="section-subtitle appear-animation">Globo da Morte, Manobras e Shows ao Vivo!</p>
         </div>
         

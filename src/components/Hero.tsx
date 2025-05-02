@@ -1,4 +1,3 @@
-
 import { ArrowDown } from "lucide-react";
 import { useState } from "react";
 
@@ -10,21 +9,17 @@ const Hero = () => {
     <section
       id="inicio"
       className={`relative min-h-screen flex items-center bg-gsx-black overflow-hidden ${
-        isVideoLoaded ? "opacity-100" : "opacity-0"
+        isVideoLoaded ? "" : ""
       } transition-opacity duration-500`}
     >
       {/* Background gradient overlay */}
       <div className="absolute inset-0 bg-gradient-to-b from-gsx-black/95 to-gsx-black/65 z-10"></div>
       
-      {/* Background video */}
-      <video 
-        className="absolute inset-0 w-full h-full object-cover z-0" 
-        src="/img/IVSOQM_GT-Ferrari_Gamma_Copertina_Short_A6KHBL.mp4" 
-        autoPlay 
-        loop 
-        muted 
-        onLoadedData={() => setIsVideoLoaded(true)}
-      ></video>
+      <img 
+        src="/img/hero.jpg" 
+        alt="" 
+        className="absolute top-[-180px] w-screen object-cover z-0" 
+      />
       
       {/* Content */}
       <div className="container mx-auto px-4 sm:px-6 relative z-20">

@@ -16,7 +16,7 @@ const Footer = () => {
               <img src="/img/logo.png" alt="Brasil Moto Show Logo" className="h-16 mb-4" />
             </div>
             <h2 className="text-2xl font-rajdhani font-bold mb- hidden"></h2>
-            <p className="text-sm text-gray-400 w-[420px]">O Brasil Moto Show é o um espetáculo de motociclismo radical, levando adrenalina e emoção para várias regiões do Brasil. Com shows de wheeling, globo da morte e manobras impressionantes, nossos eventos reúnem os melhores pilotos e um público apaixonado por duas rodas.</p>
+            <p className="text-sm text-gray-400 w-[320px] md:w-[420px]">O Brasil Moto Show é o um espetáculo de motociclismo radical, levando adrenalina e emoção para várias regiões do Brasil. Com shows de wheeling, globo da morte e manobras impressionantes, nossos eventos reúnem os melhores pilotos e um público apaixonado por duas rodas.</p>
           </div>
           
           <div className="flex flex-wrap gap-6 justify-center md:justify-end">
