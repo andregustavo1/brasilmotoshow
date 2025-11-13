@@ -27,24 +27,17 @@ const Clients = () => {
     };
   }, []);
   const images = [
+    "/img/1 (1).jpg",
     "/img/1 (2).jpg",
-    "/img/1 (3).jpg",
-    "/img/1 (35).jpg", // Coloque a imagem 35 em terceiro lugar
+    "/img/1 (3).jpg", // Coloque a imagem 35 em terceiro lugar
     "/img/1 (4).jpg",
-    "/img/1 (34).jpg",
     "/img/1 (5).jpg",
-    "/img/1 (33).jpg",
     "/img/1 (6).jpg",
-    "/img/1 (32).jpg",
     "/img/1 (7).jpg",
     "/img/1 (8).jpg",
-    "/img/1 (31).jpg",
     "/img/1 (9).jpg",
-    "/img/1 (30).jpg",
     "/img/1 (10).jpg",
-    "/img/1 (29).jpg",
     "/img/1 (11).jpg",
-    "/img/1 (28).jpg",
     "/img/1 (12).jpg",
     "/img/1 (13).jpg",
     "/img/1 (14).jpg",
@@ -57,10 +50,6 @@ const Clients = () => {
     "/img/1 (21).jpg",
     "/img/1 (22).jpg",
     "/img/1 (23).jpg",
-    "/img/1 (24).jpg",
-    "/img/1 (25).jpg",
-    "/img/1 (26).jpg",
-    "/img/1 (27).jpg",
     
   ];
 
