@@ -18,7 +18,7 @@ const Hero = () => {
       <img 
         src="/img/hero.jpg" 
         alt="" 
-        className="absolute md:top-[-180px] w-screen h-screen md:h-[250vh] object-cover z-0" 
+        className="absolute w-screen h-screen object-cover z-0" 
       />
       
       {/* Content */}
