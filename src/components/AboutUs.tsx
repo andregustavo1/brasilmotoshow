@@ -96,7 +96,7 @@ const AboutUs = () => {
           <div className="appear-animation">
             <div className="relative scale-90">
               <img 
-                src="/img/about.png" 
+                src="/img/about.jpeg" 
                 alt="Foto da equipe do Brasil Moto Show" 
                 className="rounded-lg shadow-lg object-cover w-full h-full"
               />

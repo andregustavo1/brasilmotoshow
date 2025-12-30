@@ -29,7 +29,7 @@ const CallToAction = () => {
   return <section id="cta" ref={sectionRef} className="relative py-20">
       {/* Background image */}
       <div className="absolute inset-0 bg-cover bg-center z-0" style={{
-      backgroundImage: "url('/img/1 (21).jpg')",
+      backgroundImage: "url('/img/about.jpeg')",
       filter: "brightness(0.3) blur(0px)"
     }}></div>
       
